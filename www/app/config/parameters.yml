@@ -1,0 +1,74 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_driver: pdo_mysql
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: tdn3_marylin_prod
+    database_user: trucdenana
+    database_password: ju75via
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 4954b367bded7d23bc25bec1d4e1ff565b0311ef
+    debug_toolbar: true
+    debug_redirects: false
+    use_assetic_controller: true
+
+    media_root: uploads/documents/
+    profils_media: profils/
+    tdn_media: public/
+
+    transport: mail
+
+    secret: FourmisSansOmbres
+
+    session_memcache_host1: 127.0.0.1
+    session_memcache_host2: 192.168.0.101
+    session_memcache_port: 11211
+    session_memcache_prefix: sess
+    session_memcache_expire: 3600
+
+    mail_moderation_1: siteadmin@trucsdenana.com
+    mail_moderation_2: justine@trucdenana.com
+    mail_marketing: marieterry@trucdenana.com
+
+    mail_expediteur:
+        admin: postmaster@trucdenana.com
+        redaction: redaction@trucdenana.com
+    admin_notifications:
+        sysadmin: %mail_moderation_1%
+        redaction:
+            - justine@trucdenana.com
+            - %mail_marketing%
+            - %mail_moderation_1%
+        moderation: marieterry@trucdenana.com
+
+    action_points:
+        #equipe TDN
+        article_redaction: 1024;
+        reponse_expert: 500
+        article_commente: 256
+        article_aime: 128
+        article_partage: 128
+        # lectrices & lecteurs
+        completer_profil: 200
+        inscription: 0
+        abonnee_newsletter: 200
+        offres_partenaires: 200
+        nana_semaine: 200
+        marrainage: 150
+        reponse_nanas: 100
+        commentaire: 50
+        reponse_choisie: 50
+        reponse_vote: 50
+        partage_contenu: 30
+        question_expert: 20
+        participation_concours: 20
+        like: 20
+        reponse_nanas_votee: 0
+        question_nanas: 0
+        nana_suivie: 0
+        suivre_nana: 0
+        post_info: 0
